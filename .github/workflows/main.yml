@@ -60,6 +60,7 @@ jobs:
           haxelib install hscript --quiet
           haxelib git faxe https://github.com/uhrobots/faxe --quiet
           haxelib git polymod https://github.com/MasterEric/polymod.git --quiet
+          haxelib git linc_luajit https://github.com/jigsaw-4277821/linc_luajit.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc --quiet
           haxelib git extension-webm https://github.com/KlavierGayming/extension-webm
           haxelib install actuate       
