@@ -2670,17 +2670,7 @@ class PlayState extends MusicBeatState
 		var images = [];
 		var xml = [];
 		trace("caching");
-
-		for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/jellyleandeath")))
-		{
-			if (!i.endsWith(".png"))
-				continue;
-			images.push(i);
-
-			if (!i.endsWith(".xml"))
-				continue;
-			xml.push(i);
-		}
+	    
 		for (i in images)
 		{
 			var replaced = i.replace(".png","");
